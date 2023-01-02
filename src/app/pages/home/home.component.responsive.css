@@ -1,0 +1,8 @@
+@media screen and (max-width: 720px) {
+  .container-card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+  }
+}
+

@@ -1,0 +1,30 @@
+.container-menu-bar{
+  height: 280px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-menu-bar > h1{
+  font-size: 190px;
+  margin-top: 8px;
+  margin-left: 190px;
+}
+
+hr{
+  margin-bottom: 6px;
+}
+
+.menu-bar-acessos > a{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 230px;
+}
+
+.menu-bar-acessos > a:hover {
+  background-color: white;
+  color: black;
+  transition: color .4s;
+}

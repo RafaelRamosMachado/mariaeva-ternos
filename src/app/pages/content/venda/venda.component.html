@@ -1,0 +1,55 @@
+<div class="vendas-menu">
+  <app-menu></app-menu>
+</div>
+<div class="vendas-title-principal">
+  <p>BLAZER</p>
+</div>
+<div class="container-vendas">
+  <div class="vendas-photo">
+    <img src="{{ photoCover }}"
+    >
+  </div>
+  <div class="vendas-photo-small">
+
+  </div>
+  <div class="vendas-title">
+    <h1>{{ contentTitle }}</h1>
+    <div class="vendas-divisao">
+        <hr>
+    </div>
+    <div class="vendas-valor">
+      <p>{{ contentValue }}</p>
+    </div>
+    <div class="vendas-description">
+      <p>{{ contentDescription }}</p>
+    </div>
+    <div class="vendas-tamanhos">
+      <p>Sobre os tamanhos:<br><br>
+        P veste 38<br><br>
+        M veste 40<br><br>
+        G veste 42
+      </p>
+    </div>
+    <div class="vendas-escolhas-tamanhos">
+      <p>Tamanho:
+        <select>
+          <option>Escolha uma opção</option>
+          <option>P</option>
+          <option>M</option>
+          <option>G</option>
+          </select>
+      </p>
+    </div>
+    <div class="vendas-escolhas-qtd">
+      <p>Quantidade:
+        <input type="number" step="1" min=0 max>
+      </p>
+    </div>
+    <div class="vendas-botao-comprar">
+      <button type="submit">Comprar</button>
+    </div>
+  </div>
+</div>
+<div class="vendas-rodape">
+  <app-rodape></app-rodape>
+</div>
